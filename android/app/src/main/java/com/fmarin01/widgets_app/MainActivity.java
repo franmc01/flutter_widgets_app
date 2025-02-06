@@ -1,0 +1,6 @@
+package com.fmarin01.widgets_app;
+
+import io.flutter.embedding.android.FlutterActivity;
+
+public class MainActivity extends FlutterActivity {
+}
