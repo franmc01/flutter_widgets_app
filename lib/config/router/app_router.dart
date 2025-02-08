@@ -1,10 +1,12 @@
 import 'package:go_router/go_router.dart';
 import 'package:widgets_app/presentation/screens/animated_screen.dart';
+import 'package:widgets_app/presentation/screens/app_tutorial_screen.dart';
 import 'package:widgets_app/presentation/screens/buttons_screen.dart';
 import 'package:widgets_app/presentation/screens/cards_screen.dart';
 import 'package:widgets_app/presentation/screens/home_screen.dart';
 import 'package:widgets_app/presentation/screens/progress_screen.dart';
 import 'package:widgets_app/presentation/screens/snackbar_screen.dart';
+import 'package:widgets_app/presentation/screens/ui_controls.dart';
 
 final appRouter = GoRouter(initialLocation: '/', routes: [
   GoRoute(
@@ -33,5 +35,7 @@ final appRouter = GoRouter(initialLocation: '/', routes: [
     path: '/animated',
     name: AnimatedScreen.name,
     builder: (context, state) => AnimatedScreen(),
-  )
+  ),
+  GoRoute(path: '/ui-controls', name: UiControls.name, builder: (context, state) => UiControls()),
+  GoRoute(path: '/tutorial', name: AppTutorialScreen.name, builder: (context, state) => AppTutorialScreen()),
 ]);

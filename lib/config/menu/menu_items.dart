@@ -21,4 +21,6 @@ const appMenuItems = <MenuItems>[
   MenuItems(title: 'Progress Indicators', subTitle: 'Generales y controlados', link: '/progress', icon: Icons.refresh_rounded), 
   MenuItems(title: 'Snackbars and Dialogs', subTitle: 'Indicadores en pantalla', link: '/snackbars', icon: Icons.dialer_sip), 
   MenuItems(title: 'Animated', subTitle: 'Ejercicios de animaciones', link: '/animated', icon: Icons.animation), 
+  MenuItems(title: 'UI Controls', subTitle: 'Ejercicios de  ui controls', link: '/ui-controls', icon: Icons.control_point), 
+  MenuItems(title: 'Tutorial', subTitle: 'Ejercicios de onboarding', link: '/tutorial', icon: Icons.slideshow), 
 ];
