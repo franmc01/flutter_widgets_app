@@ -1,5 +1,3 @@
-// import 'package:flutter/material.dart' show IconData;
-
 import 'package:flutter/material.dart';
 
 class MenuItems {
@@ -23,4 +21,5 @@ const appMenuItems = <MenuItems>[
   MenuItems(title: 'Animated', subTitle: 'Ejercicios de animaciones', link: '/animated', icon: Icons.animation), 
   MenuItems(title: 'UI Controls', subTitle: 'Ejercicios de  ui controls', link: '/ui-controls', icon: Icons.control_point), 
   MenuItems(title: 'Tutorial', subTitle: 'Ejercicios de onboarding', link: '/tutorial', icon: Icons.slideshow), 
+  MenuItems(title: 'InifiniteScroll & Pull', subTitle: 'Listas infinitas y pull to refresh', link: '/infinity', icon: Icons.list), 
 ];
