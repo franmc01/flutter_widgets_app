@@ -22,4 +22,5 @@ const appMenuItems = <MenuItems>[
   MenuItems(title: 'UI Controls', subTitle: 'Ejercicios de  ui controls', link: '/ui-controls', icon: Icons.control_point), 
   MenuItems(title: 'Tutorial', subTitle: 'Ejercicios de onboarding', link: '/tutorial', icon: Icons.slideshow), 
   MenuItems(title: 'InifiniteScroll & Pull', subTitle: 'Listas infinitas y pull to refresh', link: '/infinity', icon: Icons.list), 
+  MenuItems(title: 'Counter', subTitle: 'Riverpod Test', link: '/counter', icon: Icons.currency_pound_outlined), 
 ];
