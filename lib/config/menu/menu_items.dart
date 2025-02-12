@@ -23,4 +23,5 @@ const appMenuItems = <MenuItems>[
   MenuItems(title: 'Tutorial', subTitle: 'Ejercicios de onboarding', link: '/tutorial', icon: Icons.slideshow), 
   MenuItems(title: 'InifiniteScroll & Pull', subTitle: 'Listas infinitas y pull to refresh', link: '/infinity', icon: Icons.list), 
   MenuItems(title: 'Counter', subTitle: 'Riverpod Test', link: '/counter', icon: Icons.currency_pound_outlined), 
+  MenuItems(title: 'Theme Changer', subTitle: 'Riverpod Cambiar Temas', link: '/theme', icon: Icons.color_lens), 
 ];

@@ -8,6 +8,7 @@ import 'package:widgets_app/presentation/screens/home_screen.dart';
 import 'package:widgets_app/presentation/screens/infinite_scroll.dart';
 import 'package:widgets_app/presentation/screens/progress_screen.dart';
 import 'package:widgets_app/presentation/screens/snackbar_screen.dart';
+import 'package:widgets_app/presentation/screens/theme_changer.dart';
 import 'package:widgets_app/presentation/screens/ui_controls.dart';
 
 final appRouter = GoRouter(initialLocation: '/', routes: [
@@ -42,4 +43,5 @@ final appRouter = GoRouter(initialLocation: '/', routes: [
   GoRoute(path: '/tutorial', name: AppTutorialScreen.name, builder: (context, state) => AppTutorialScreen()),
   GoRoute(path: '/infinity', name: InfiniteScrollScreen.name, builder: (context, state) => InfiniteScrollScreen()),
   GoRoute(path: '/counter', name: CounterScreen.name, builder: (context, state) => CounterScreen()),
+  GoRoute(path: '/theme', name: ThemeChanger.name, builder: (context, state) => ThemeChanger()),
 ]);
